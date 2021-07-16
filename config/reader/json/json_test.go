@@ -3,7 +3,7 @@ package json
 import (
 	"testing"
 
-	"github.com/go-admin-team/go-admin-core/config/source"
+	"github.com/crelaber/web-sdk-core/config/source"
 )
 
 func TestReader(t *testing.T) {

@@ -1,4 +1,4 @@
-module github.com/go-admin-team/go-admin-core/sdk
+module github.com/crelaber/web-sdk-core/sdk
 
 go 1.14
 
@@ -7,10 +7,10 @@ require (
 	github.com/bytedance/go-tagexpr/v2 v2.7.12
 	github.com/casbin/casbin/v2 v2.24.0
 	github.com/chanxuehong/wechat v0.0.0-20201110083048-0180211b69fd
+	github.com/crelaber/web-sdk-core v1.3.5-rc.5
+	github.com/crelaber/web-sdk-core/plugins/logger/zap v0.0.0-20210610020726-2db73adb505d
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/gin-gonic/gin v1.7.2
-	github.com/go-admin-team/go-admin-core v1.3.5-rc.5
-	github.com/go-admin-team/go-admin-core/plugins/logger/zap v0.0.0-20210610020726-2db73adb505d
 	github.com/go-admin-team/gorm-adapter/v3 v3.2.1-0.20210310135230-1608cc35b95b
 	github.com/go-playground/locales v0.13.0
 	github.com/go-playground/universal-translator v0.17.0
@@ -30,6 +30,6 @@ require (
 )
 
 replace (
-	github.com/go-admin-team/go-admin-core => ../
-	github.com/go-admin-team/go-admin-core/plugins/logger/zap => ../plugins/logger/zap
+	github.com/crelaber/web-sdk-core => ../
+	github.com/crelaber/web-sdk-core/plugins/logger/zap => ../plugins/logger/zap
 )

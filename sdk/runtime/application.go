@@ -6,9 +6,9 @@ import (
 	"sync"
 
 	"github.com/casbin/casbin/v2"
-	"github.com/go-admin-team/go-admin-core/logger"
-	"github.com/go-admin-team/go-admin-core/storage"
-	"github.com/go-admin-team/go-admin-core/storage/queue"
+	"github.com/crelaber/web-sdk-core/logger"
+	"github.com/crelaber/web-sdk-core/storage"
+	"github.com/crelaber/web-sdk-core/storage/queue"
 	"github.com/robfig/cron/v3"
 	"gorm.io/gorm"
 )

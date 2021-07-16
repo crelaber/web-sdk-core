@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-admin-team/go-admin-core/config/loader"
-	"github.com/go-admin-team/go-admin-core/config/loader/memory"
-	"github.com/go-admin-team/go-admin-core/config/reader"
-	"github.com/go-admin-team/go-admin-core/config/reader/json"
-	"github.com/go-admin-team/go-admin-core/config/source"
+	"github.com/crelaber/web-sdk-core/config/loader"
+	"github.com/crelaber/web-sdk-core/config/loader/memory"
+	"github.com/crelaber/web-sdk-core/config/reader"
+	"github.com/crelaber/web-sdk-core/config/reader/json"
+	"github.com/crelaber/web-sdk-core/config/source"
 )
 
 type config struct {

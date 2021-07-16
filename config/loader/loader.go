@@ -4,8 +4,8 @@ package loader
 import (
 	"context"
 
-	"github.com/go-admin-team/go-admin-core/config/reader"
-	"github.com/go-admin-team/go-admin-core/config/source"
+	"github.com/crelaber/web-sdk-core/config/reader"
+	"github.com/crelaber/web-sdk-core/config/source"
 )
 
 // Loader manages loading sources

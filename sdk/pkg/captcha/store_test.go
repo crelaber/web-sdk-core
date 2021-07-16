@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-admin-team/go-admin-core/storage"
-	"github.com/go-admin-team/go-admin-core/storage/cache"
+	"github.com/crelaber/web-sdk-core/storage"
+	"github.com/crelaber/web-sdk-core/storage/cache"
 	"github.com/mojocn/base64Captcha"
 )
 

@@ -5,8 +5,8 @@ package file
 import (
 	"os"
 
+	"github.com/crelaber/web-sdk-core/config/source"
 	"github.com/fsnotify/fsnotify"
-	"github.com/go-admin-team/go-admin-core/config/source"
 )
 
 type watcher struct {

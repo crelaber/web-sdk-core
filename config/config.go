@@ -4,10 +4,10 @@ package config
 import (
 	"context"
 
-	"github.com/go-admin-team/go-admin-core/config/loader"
-	"github.com/go-admin-team/go-admin-core/config/reader"
-	"github.com/go-admin-team/go-admin-core/config/source"
-	"github.com/go-admin-team/go-admin-core/config/source/file"
+	"github.com/crelaber/web-sdk-core/config/loader"
+	"github.com/crelaber/web-sdk-core/config/reader"
+	"github.com/crelaber/web-sdk-core/config/source"
+	"github.com/crelaber/web-sdk-core/config/source/file"
 )
 
 // Config is an interface abstraction for dynamic configuration

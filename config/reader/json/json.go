@@ -4,10 +4,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/go-admin-team/go-admin-core/config/encoder"
-	"github.com/go-admin-team/go-admin-core/config/encoder/json"
-	"github.com/go-admin-team/go-admin-core/config/reader"
-	"github.com/go-admin-team/go-admin-core/config/source"
+	"github.com/crelaber/web-sdk-core/config/encoder"
+	"github.com/crelaber/web-sdk-core/config/encoder/json"
+	"github.com/crelaber/web-sdk-core/config/reader"
+	"github.com/crelaber/web-sdk-core/config/source"
 	"github.com/imdario/mergo"
 )
 

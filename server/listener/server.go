@@ -12,8 +12,8 @@ import (
 	"net"
 	"net/http"
 
-	log "github.com/go-admin-team/go-admin-core/logger"
-	"github.com/go-admin-team/go-admin-core/server"
+	log "github.com/crelaber/web-sdk-core/logger"
+	"github.com/crelaber/web-sdk-core/server"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 

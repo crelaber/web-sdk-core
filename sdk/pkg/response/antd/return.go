@@ -1,8 +1,8 @@
 package antd
 
 import (
+	"github.com/crelaber/web-sdk-core/sdk/pkg"
 	"github.com/gin-gonic/gin"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
 	"net/http"
 )
 

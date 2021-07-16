@@ -5,9 +5,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/go-admin-team/go-admin-core/logger"
-	"github.com/go-admin-team/go-admin-core/sdk"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
+	"github.com/crelaber/web-sdk-core/logger"
+	"github.com/crelaber/web-sdk-core/sdk"
+	"github.com/crelaber/web-sdk-core/sdk/pkg"
 )
 
 type loggerKey struct{}
